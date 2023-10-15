@@ -19,7 +19,7 @@ public class JedisConnectionFactory {
                 "192.168.74.128",
                 6379,
                 1000,
-                "");
+                "Your Own Password");
     }
 
     public static Jedis getJedis() {
